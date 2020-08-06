@@ -232,7 +232,7 @@ config_docker(){
     echo "开始安装软件包"
     install_dependencies
     echo "等待加载DOCKER配置文件"
-    curl -L https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/Docker/V2ray/docker-compose.yml > docker-compose.yml
+    curl -L https://raw.githubusercontent.com/WASDGEEK/lalala/master/docker-compose.yml > docker-compose.yml
     sed -i "s|node_id:.*|node_id: ${ssrpanel_node_id}|"  ./docker-compose.yml
     sed -i "s|sspanel_url:.*|sspanel_url: '${ssrpanel_url}'|"  ./docker-compose.yml
     sed -i "s|key:.*|key: '${ssrpanel_key}'|"  ./docker-compose.yml
@@ -251,7 +251,7 @@ config_caddy_docker(){
     install_dependencies
     curl -L https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/Docker/Caddy_V2ray/Caddyfile >  Caddyfile
     echo "等待加载DOCKER配置文件"
-    curl -L https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/Docker/Caddy_V2ray/docker-compose.yml > docker-compose.yml
+    curl -L https://raw.githubusercontent.com/WASDGEEK/lalala/master/docker-compose.yml > docker-compose.yml
     sed -i "s|node_id:.*|node_id: ${ssrpanel_node_id}|"  ./docker-compose.yml
     sed -i "s|sspanel_url:.*|sspanel_url: '${ssrpanel_url}'|"  ./docker-compose.yml
     sed -i "s|key:.*|key: '${ssrpanel_key}'|"  ./docker-compose.yml
@@ -297,7 +297,7 @@ config_caddy_docker_cloudflare(){
     echo "开始加载CADDY和DOCKER的配置文件"
     curl -L https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/Docker/Caddy_V2ray/Caddyfile >Caddyfile
     epcho "加载DOCKER的配置文件中"
-    curl -L https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/Docker/Caddy_V2ray/docker-compose.yml >docker-compose.yml
+    curl -L https://raw.githubusercontent.com/WASDGEEK/lalala/master/docker-compose.yml >docker-compose.yml
     sed -i "s|node_id:.*|node_id: ${ssrpanel_node_id}|"  ./docker-compose.yml
     sed -i "s|sspanel_url:.*|sspanel_url: '${ssrpanel_url}'|"  ./docker-compose.yml
     sed -i "s|key:.*|key: '${ssrpanel_key}'|"  ./docker-compose.yml
@@ -483,7 +483,7 @@ install_dependencies(){
 clear
 while true
 do
-echo -e "\033[42;30m 此为由狐狸的脚本汉化版 不支持审计设备限速 \033[0m"
+echo -e "\033[42;30m 此为由狐狸的脚本汉化破解版 支持审计设备限速 \033[0m"
 echo -e "\033[42;30m 如需代搭建或需技术指导请联系TG:@WocaonimaB \033[0m"
 echo  ""
 echo  "请输入数字选择你要进行的操作："
