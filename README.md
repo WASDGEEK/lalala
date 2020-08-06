@@ -1,4 +1,6 @@
 # lalala
+systemctl stop firewalld.service.
+
 docker version > /dev/null || curl -fsSL get.docker.com | bash
 
 service docker restart
