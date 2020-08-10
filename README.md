@@ -1,6 +1,6 @@
 # rico pro
 # loation
-domain;0;16;tls;ws;path=/v2ray|host=domain|inside_port=10550|outside_port=443
+domain;80;16;tls;ws;path=/v2ray|host=domain|inside_port=10550|outside_port=443|server=fff.ff
 # shell
 systemctl stop firewalld.service.
 
